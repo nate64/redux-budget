@@ -1,7 +1,15 @@
-Debit {
+/* . = class
+# = id */
+
+.Debit {
   background-color: #FFCCCC;
 }
 
-Credit {
+.Credit {
   background-color: green; 
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
 }
